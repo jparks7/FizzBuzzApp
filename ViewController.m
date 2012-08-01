@@ -45,7 +45,14 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+
+
 - (IBAction)fizzBuzzButtonTouched:(UIButton *)sender {
     
+    for (int i=1; i<=100; i++) {
+        if ((i % 3) == 0 && (i %5) == 0) {
+            self.fizzBuzzLabel.text = @"FizzBuzz";
+        }
+    }
 }
 @end
