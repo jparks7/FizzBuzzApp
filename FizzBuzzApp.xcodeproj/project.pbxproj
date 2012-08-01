@@ -23,11 +23,11 @@
 		5BD3195515C98E5500677A1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BD3195715C98E5500677A1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5BD3195915C98E5500677A1A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5BD3195D15C98E5500677A1A /* FizzBuzzApp-Info.plist */ = {isa = PBXFileReference; path = "FizzBuzzApp-Info.plist"; sourceTree = "<group>"; };
+		5BD3195D15C98E5500677A1A /* FizzBuzzApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FizzBuzzApp-Info.plist"; sourceTree = "<group>"; };
 		5BD3195F15C98E5600677A1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BD3196115C98E5600677A1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BD3196315C98E5600677A1A /* FizzBuzzApp-Prefix.pch */ = {isa = PBXFileReference; path = "FizzBuzzApp-Prefix.pch"; sourceTree = "<group>"; };
-		5BD3196415C98E5600677A1A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BD3196315C98E5600677A1A /* FizzBuzzApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FizzBuzzApp-Prefix.pch"; sourceTree = "<group>"; };
+		5BD3196415C98E5600677A1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BD3196515C98E5600677A1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5BD3196815C98E5600677A1A /* FizzBuzzApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FizzBuzzApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */

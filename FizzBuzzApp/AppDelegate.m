@@ -16,13 +16,30 @@
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+
+
 {
+    for (int i = 1; i < 100; i ++) {
+        if ((i % 3) == 0 && (i % 5) == 0) {
+            NSLog(@"FizzBuzz");
+        } else if ((i % 5) == 0) {
+            NSLog(@"Buzz");
+        } else if ((i % 3) == 0) {
+            NSLog(@"Fizz");
+        } else {
+            NSLog(@"%d", i);
+        }
+    } 
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+    
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
