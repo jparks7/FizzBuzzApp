@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B3C7A1315C9977C00400F6B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3C7A1215C9977C00400F6B /* Storyboard.storyboard */; };
+		5B3C7A2315C9AC7D00400F6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C7A2115C9AC7D00400F6B /* ViewController.m */; };
+		5B3C7A2415C9AC7D00400F6B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B3C7A2215C9AC7D00400F6B /* ViewController.xib */; };
 		5BD3195415C98E5500677A1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD3195315C98E5500677A1A /* UIKit.framework */; };
 		5BD3195615C98E5500677A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD3195515C98E5500677A1A /* Foundation.framework */; };
 		5BD3195815C98E5500677A1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD3195715C98E5500677A1A /* CoreGraphics.framework */; };
@@ -19,7 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B3C7A1215C9977C00400F6B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		5B3C7A2015C9AC7D00400F6B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		5B3C7A2115C9AC7D00400F6B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		5B3C7A2215C9AC7D00400F6B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
 		5BD3194F15C98E5500677A1A /* FizzBuzzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD3195315C98E5500677A1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BD3195515C98E5500677A1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,7 +85,9 @@
 			children = (
 				5BD3196415C98E5600677A1A /* AppDelegate.h */,
 				5BD3196515C98E5600677A1A /* AppDelegate.m */,
-				5B3C7A1215C9977C00400F6B /* Storyboard.storyboard */,
+				5B3C7A2015C9AC7D00400F6B /* ViewController.h */,
+				5B3C7A2115C9AC7D00400F6B /* ViewController.m */,
+				5B3C7A2215C9AC7D00400F6B /* ViewController.xib */,
 				5BD3196715C98E5600677A1A /* FizzBuzzApp.xcdatamodeld */,
 				5BD3195C15C98E5500677A1A /* Supporting Files */,
 			);
@@ -151,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD3196015C98E5600677A1A /* InfoPlist.strings in Resources */,
-				5B3C7A1315C9977C00400F6B /* Storyboard.storyboard in Resources */,
+				5B3C7A2415C9AC7D00400F6B /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +170,7 @@
 				5BD3196215C98E5600677A1A /* main.m in Sources */,
 				5BD3196615C98E5600677A1A /* AppDelegate.m in Sources */,
 				5BD3196915C98E5600677A1A /* FizzBuzzApp.xcdatamodeld in Sources */,
+				5B3C7A2315C9AC7D00400F6B /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
